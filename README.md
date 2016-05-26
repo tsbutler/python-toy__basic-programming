@@ -14,6 +14,6 @@ There is more than one file containing code for you to write, but the code in ei
 
 After forking this repo and opening it in your development environment (e.g. Cloud9), run `bin/setup`. This will install any software that this exercise depends upon.
 
-Your work belongs in the file called **test_something_something.py**. There is no **lib/** directory for this project. Modify the function(s) in the provided Python file(s). To check if you have passed an exercise, run `bin/check`. This will run a series of automated tests and provide you with errors and/or feedback.
+Your work belongs in the files called **test_something_something.py**. There is no **lib/** directory for this project. Modify the function(s) in the provided Python file(s). To check if you have passed an exercise, run `bin/check`. This will run a series of automated tests and provide you with errors and/or feedback.
 
 Do not change the name of the functions. Simply alter the body of the function to get the tests passing.

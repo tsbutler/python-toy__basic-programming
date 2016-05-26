@@ -27,5 +27,6 @@ echo ""
 if [[ -n ${choice//[0-9]/} ]]; then
   echo "That is not a valid input. Start over."
 else
+  echo "Running: \`py.test ${files[ (choice - 1) ]}\`"
   py.test ${files[ (choice - 1) ]}
 fi

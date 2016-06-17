@@ -1,6 +1,9 @@
 def filter_numbers(arr):
-  # Remove the `return None` code below and add your own code.
-  return None
+  arr_f = []
+  for item in arr:
+    if item < 10:
+      arr_f.append(item)
+  return arr_f
 
 # -----------------------------------------------------------------------------
 

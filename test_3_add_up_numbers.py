@@ -1,8 +1,10 @@
 # NOTE: You may NOT use the `sum()` function for exercise. Use a loop.
 
 def add_up_numbers(arr):
-  # Remove the `return None` code below and add your own code.
-  return None
+  sum = 0
+  for item in arr:
+    sum += item
+  return sum
 
 # -----------------------------------------------------------------------------
 
